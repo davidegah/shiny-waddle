@@ -65,14 +65,20 @@ a:link, a:visited{
     text-align: center;
 }
 .stripe-two{
-    margin-bottom: 100px;
     padding: 24px;
+    margin-bottom: 100px;
 }
-.square{
-    border: solid;
-    height: 100px;
+.square-images .item{
+    border: 3px solid black;
     width: 100px;
+    height: 100px;
     border-radius: 10px;
+}
+.square-images img{
+    border-radius: 10px;
+    width: 100px;
+}
+.item{
     display: flex;
     flex-direction: column;
 }
@@ -80,7 +86,4 @@ a:link, a:visited{
     display: flex;
     justify-content: center;
     gap: 24px;
-}
-.square img{
-    border-radius: 10px;
 }
