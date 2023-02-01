@@ -18,7 +18,7 @@ body{
 .header .logo{
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 400;
 }
 .footer{
     display: flex;
@@ -27,5 +27,33 @@ body{
 }
 a:link, a:visited{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+}
+.stripe-one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 8px;
+    color: #E5E7EB;
+}
+.stripe-one .text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+}
+.stripe-one .text .title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.stripe-one.text .paragraph{
+    margin-top: 0px;
+}
+.button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 25px;
+    border-color: #3882F6;
+    height: 32px;
+    width: 100px;
 }
