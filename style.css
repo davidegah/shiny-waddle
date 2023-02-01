@@ -87,3 +87,45 @@ a:link, a:visited{
     justify-content: center;
     gap: 24px;
 }
+.stripe-three{
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.item .citation{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.stripe-three .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin: 0 20% 0 20%;
+}
+.stripe-three .item .quote{
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+}
+.stripe-four{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+.stripe-four .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: #3882F6;
+    padding: 24px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+.stripe-four .item .text{
+    margin-right: 200px;
+}
+.stripe-four .button{
+    border-color: #E5E7EB;
+}
